@@ -1,0 +1,227 @@
+
+
+a.nav-link {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 15px 50px;
+}
+
+ul.navbar-nav.mr-auto {
+    margin-left: 50px;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0 {
+    border: 1px solid;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0:hover {
+	background: #fff;
+	color: rgb(0, 212, 116);
+}
+
+
+
+main {
+    background: #f8f8f8;
+}
+
+.marketing h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+#titulo {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+
+#genero a{
+color: #29332f;
+text-transform: uppercase;
+font-size: 18px;
+}
+
+#genero{
+color: #29332f;
+text-transform: uppercase;
+font-size: 18px;
+}
+
+.marketing h2{
+font-size: 24px;
+text-transform: uppercase;
+color: #6f6f6f;
+letter-spacing: 2px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.recomendacionesButton {
+
+    border: 1px solid rgb(0, 212, 116);
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+.marketing p a:hover {
+
+	background: rgb(0, 212, 116);
+	border: 1px solid rgb(0, 212, 116);
+}
+
+
+
+.detail ul li{
+
+color: gray;
+
+letter-spacing: 0.5px;
+}
+
+#detalle {
+    margin-bottom: 30px;
+    color: gray;
+    letter-spacing: 0.5px;
+}
+
+h3.my-3 {
+    letter-spacing: 2px;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+body{
+	padding-bottom: 0;
+}
+
+footer.footer {
+  
+    background: #000;
+    color: rgb(0, 212, 116);
+}
+
+ul.list-group.listadoGeneros{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 40px
+  }
+
+ul.list-group.listadoGeneros li.list-group-item {
+    border: none;
+    max-width: 50%;
+    width: 100%;
+}
+
+.related_title{
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 80px;}
+
+ul.list-group.listadoGeneros li.list-group-item a{
+	border: none;
+	display: block;
+	width: 100%;
+	max-width: 300px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #525252;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+input.search{
+width: 90%;
+margin-left: 0;
+height: 50px;
+margin-bottom: 20px;
+}
+
+input.search:focus{
+
+border: 1px solid #00d474;
+
+box-shadow: none;
+}
+
+
+form#formularioAvanzado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+.form_div {
+    max-width: 22%;
+    width: 100%;
+    text-align: left;
+}
+
+.form_div label{
+    text-align: left;
+    display: block;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+form#formularioAvanzado button.btn.btn-outline-success.my-2.my-sm-0.buscar[type="submit"]{
+	margin-bottom: 0;
+    margin-top: 30px;
+    margin-left: 0px
+}
+
+.form_div input {
+    height: 40px;
+    padding-left: 7px;
+}
+
+.form_div select{
+color: gray;
+width: 100%;
+height: 40px;
+padding-left: 5px;
+padding-right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+.marketing h1{
+	font-size: 20px;
+}
+
+form#formularioAvanzado {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.form_div {
+    max-width: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+footer.footer {
+    background: #000;
+    color: rgb(0, 212, 116);
+    text-align: center;
+}
+
+}
